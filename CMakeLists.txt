@@ -11,7 +11,7 @@ find_package(std_msgs REQUIRED)
 find_package(avr_2023_common_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-        "srv/JointAngle.srv"
+        "srv/SetMotorAngle.srv"
         DEPENDENCIES std_msgs avr_2023_common_interfaces
 )
 
