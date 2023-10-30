@@ -1,3 +1,4 @@
 float32 value
+string value_name
 ---
 bool success
