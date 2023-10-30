@@ -12,6 +12,7 @@ find_package(avr_2023_common_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         "srv/SetMotorAngle.srv"
+        "srv/SetTuningValue.srv"
         DEPENDENCIES std_msgs avr_2023_common_interfaces
 )
 
