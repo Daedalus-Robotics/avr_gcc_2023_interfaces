@@ -1,4 +1,4 @@
-float64 angle
+float64 val
+int8 val_name
 ---
 bool success
-string message
