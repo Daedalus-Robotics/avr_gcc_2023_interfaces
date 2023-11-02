@@ -1,4 +1,4 @@
-float32 value
+float64 value
 string value_name
 ---
 bool success
